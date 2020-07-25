@@ -539,6 +539,11 @@ main {
     outline: none;
 }
 
+input::placeholder,
+textarea::placeholder {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .form__btn {
     margin: 0 auto;
 }
